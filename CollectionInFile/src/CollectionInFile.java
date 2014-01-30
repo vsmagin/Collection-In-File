@@ -74,7 +74,7 @@ public class CollectionInFile {
 		TreeSet<Character> letterSet = new TreeSet<Character>(collection.letterMap.keySet());
 		for (char ch: letterSet)
 			output.println(ch + " : " + collection.letterMap.get(ch));
-
+			
 		output.close();
 	}	
 }
